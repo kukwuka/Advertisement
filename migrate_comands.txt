@@ -1,0 +1,4 @@
+Команды
+migrate create -ext sql -dir ./schema -seq init
+
+migrate -path ./schema -database postgres://postgres:yunis@localhost:5432/advertisement?sslmode=disable up
